@@ -34,6 +34,7 @@ habitTurtle helps you build daily habits by tracking your consistency — like s
 ```bash
 pip install -r requirements.txt
 Run the application:
+```
 
 bash
 Copy
@@ -41,13 +42,13 @@ Edit
 python main.py
 📦 Build a Windows Executable (Optional)
 To create a standalone .exe:
-
+```
 bash
 Copy
 Edit
 pyinstaller --onefile --windowed --add-data "assets;assets" main.py
 🗂 Make sure the assets/ folder is in the same directory and includes all mascot images.
-
+```
 📁 Project Structure
 css
 Copy
