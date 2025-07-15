@@ -42,12 +42,12 @@ Edit
 python main.py
 📦 Build a Windows Executable (Optional)
 To create a standalone .exe:
-```
-bash
+```bash
 Copy
 Edit
 pyinstaller --onefile --windowed --add-data "assets;assets" main.py
 🗂 Make sure the assets/ folder is in the same directory and includes all mascot images.
+```
 ```
 📁 Project Structure
 css
@@ -67,6 +67,8 @@ habitTurtle/
 │   ├── sleeping.png
 │   └── ... (more moods)
 └── README.md
+```
+```
 🐢 Mascot Moods
 Mood	When it shows up
 😊 Happy	You completed today's habit ✅
@@ -77,7 +79,7 @@ These are probably future iterations i might do , need to find some more memes a
 😡 Angry	You're very late! Don't break the streak
 😢 Sad	You missed a day
 🤩 Excited	Long streaks or early solves
-
+```
 🧠 Why I Built This
 To learn how to structure small Python projects, use real-time GUI updates, manage state with JSON, and make habit tracking fun using mascots like a turtle. This is part of a learning journey to complete 20–30 meaningful mini-projects for mastery.
 
