@@ -43,11 +43,10 @@ python main.py
 📦 Build a Windows Executable (Optional)
 To create a standalone .exe:
 ```bash
-Copy
-Edit
+
 pyinstaller --onefile --windowed --add-data "assets;assets" main.py
-🗂 Make sure the assets/ folder is in the same directory and includes all mascot images.
 ```
+🗂 Make sure the assets/ folder is in the same directory and includes all mascot images.
 ```
 📁 Project Structure
 css
@@ -68,8 +67,8 @@ habitTurtle/
 │   └── ... (more moods)
 └── README.md
 ```
-```
 🐢 Mascot Moods
+```
 Mood	When it shows up
 😊 Happy	You completed today's habit ✅
 😰 Nervous	You're getting close to the end of day
